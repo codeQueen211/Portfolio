@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to right,black, rgb(9, 9, 9));
+    /* background-color: black; */
+}
+h1{
+    color: pink;
+    text-shadow: 1px 1px rgb(189, 154, 221);
+    text-align: center;
+    margin-right: 500px;
+}
+.container{
+   text-align: right;
+   position: absolute;
+   top: 50%;
+   right: 0;
+   transform: translate(0, -50%);
+}
+.container button{
+    display: block;
+    margin-bottom: 40px;
+    margin-right: 80px;
+    padding: 10px;
+    border: none;
+    color:rgb(204, 55, 104) ;
+    background-color:pink;
+    box-shadow: 2px 2px palevioletred;
+    width: 300px;
+
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(204, 55, 104) ;
+    color:pink;
+}
