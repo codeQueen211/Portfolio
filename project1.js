@@ -25,5 +25,5 @@ languages.addEventListener('click', function(){
 
 const contact=document.querySelector('.contact')
 contact.addEventListener('click', function(){
-    window.open('hhttps://www.pinterest.com/pin/563018690738092/', '_blank');
+    window.open('file:///C:/Users/sarao/OneDrive/%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94/project1/contact.html', '_blank');
 });    

@@ -25,6 +25,7 @@ h1{
     background-color:pink;
     box-shadow: 2px 2px palevioletred;
     width: 300px;
+    border-radius: 5px;
 
     
 }
