@@ -2,11 +2,14 @@ const personal=document.querySelector('.personal')
 personal.addEventListener('click', function(){
     window.open('file:///C:/Users/sarao/personal.html', '_blank');
 });
-
- function openEducationPage(){
-    const newpageURL="enducation.html";
-    window.open(newpageURL, '_blank');
-    }
+const education=document.querySelector('.education')
+personal.addEventListener('click', function(){
+    window.open('file:///C:/Users/sarao/education.html', '_blank');
+});
+//  function openEducationPage(){
+//     const newpageURL="enducation.html";
+//     window.open(newpageURL, '_blank');
+// }
 
 const projects=document.querySelector('.projects')
 projects.addEventListener('click', function(){
