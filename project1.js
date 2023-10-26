@@ -1,36 +1,25 @@
-const personal=document.querySelector('.personal')
-personal.addEventListener('click', function(){
-    window.open('file:///C:/Users/sarao/personal.html', '_blank');
-});
-const education=document.querySelector('.education')
-personal.addEventListener('click', function(){
-    window.open('file:///C:/Users/sarao/education.html', '_blank');
-});
-//  function openEducationPage(){
-//     const newpageURL="enducation.html";
-//     window.open(newpageURL, '_blank');
-// }
-
-const projects=document.querySelector('.projects')
-projects.addEventListener('click', function(){
-    window.open('hhttps://www.pinterest.com/pin/563018690738092/', '_blank');
-    });
-
-const workExperince=document.querySelector('.workExperince')
-workExperince.addEventListener('click', function(){
-    window.open('hhttps://www.pinterest.com/pin/563018690738092/', '_blank');
-});
-
+function openPersonalPage(){
+    let url="personal.html";
+    window.open(url,'_blank');
+}
+function openEducationPage(){
+    const newpageURL="education.html";
+    window.open(newpageURL, '_blank');
+}
+function openProjectsPage(){
+    const url="personalProjects.html";
+    window.open(url,'_blank');
+}
+function openWorkPage(){
+    const url="workExperience.html";
+    window.open(url,'_blank');
+}
 function openLanguagePage(){
          const newpageURL="languages.html";
          window.open(newpageURL, '_blank');
 }
 
-// const languages=document.getElementById("languages")
-// const newpageURL="languages.html";
-// languages.addEventListener('click', function(){
-//     window.open(newpageURL, '_blank');
-// });
+
 
 const contact=document.querySelector('.contact')
 contact.addEventListener('click', function(){
