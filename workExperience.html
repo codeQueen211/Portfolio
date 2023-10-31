@@ -25,7 +25,7 @@
         text-align: center;
     }
     h1{
-        margin-top: 200px;
+        margin-top: 50px;
         font-size: 35px;
     }
     h2{
@@ -54,17 +54,32 @@
         background-color: whitesmoke;
         transform: translateY(-8px);
     }
+    img{
+        width: 500px;
+        height: 200px;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+    }
 </style>
 <body>
     <div class="titleLine">
         <p>Sara omar - my work experince ⓘ<p>
         <p class="second">Welcome to my page ✧˖°.</p>  
-    </div>  
+    </div> 
+    <div class="photo">
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="a gif">
+        </div> 
     <h1>I interned as a Front-End developer at a startup company 👩🏻‍💻 </h1>
     <h2>I interned for a year as a front end developer coding in HTML CSS JS & VUE I worked with UI,API'S and had a number of tasks regarding accessability</h2>
     <div>
-        <button>Click here for employment authorization</button>
+        <button onclick="openEmployment()">Click here for employment authorization</button>
         <h3>A number of work projects displaying my knowledge are at my Github</h3>
         </div> 
 </body>
 </html>
+<script>
+ function openEmployment(){
+    window.location = "https://drive.google.com/file/d/1JDxOoX7gNQH"
+ }
+</script>

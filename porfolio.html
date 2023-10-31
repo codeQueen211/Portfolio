@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio</title>
+    <script src="project1.js" defer></script>
+</head>
+<style>
+    body{
+        background-color: rgb(174, 174, 246);
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blueviolet;
+        font-size: 20px;
+    }
+    <!-- h1,h2,h3,h4{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10px;
+    } -->
+    .title{
+        display: flex;
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 15px;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 50px;
+        margin-bottom: 2px;
+    }
+    h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blueviolet;
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .hireme{
+        border: none;
+        border-radius: 10px;
+        color: whitesmoke;
+        background-color: blueviolet;
+        padding: 10px 20px;
+    }
+    .hireme:hover{
+        color: blueviolet;
+        background-color: whitesmoke;
+    }
+    .home,.education,.workExperince,.projects,.contacts,a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+        background-color: rgb(174, 174, 246);
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .home:hover,.education:hover,.workExperince:hover,.projects:hover,.contacts:hover{
+        background-color: rgb(173, 172, 172);
+        border: none;
+        border-radius: 20px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    .linkedin{
+        margin-left: 300px;
+    }
+    a{
+        margin-top: 20px;
+    }
+    .home{
+        margin-left: 500px;
+    }
+    .main{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    
+    img {
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    .photo {
+        position: absolute;
+        top: 50%;
+        right: 100px;
+        transform: translate(0, -30%);
+      }
+    
+</style>
+<body>
+    <div class="title">
+        <p>Portfolio</p>
+        <button class="home">Home</button>
+        <button class="education" onclick=" openEducationPage()">Education</button>
+        <button class="workExperince" onclick=" openWorkPage()">WorkExperince</button>
+        <button class="workExperince" onclick=" openWorkPage()">Skills</button>
+        <button class="projects" onclick="openPersonalPage()">About</button>
+        <button class="contacts" onclick="openContactPage()">Contacts</button>
+        <a class="linkedin" href="https://www.linkedin.com/in/sara-omar-%D7%A9%D7%A8%D7%94-%D7%A2%D7%95%D7%9E%D7%A8-224b3a21b/">In</a>
+        <a href="https://github.com/codeQueen211?tab=repositories">Github</a>
+    </div>
+    <div class="main">
+    <h1> Hello,</h1>
+    <h2>I'm Sara Omar</h2>
+    <h3>Front-End Developer</h3>
+    <h4>from Isreal</h4>
+    <button class="hireme" onclick="hireMe()">Hire Me</button>
+    </div>
+    <div class="photo">
+        <!-- <img src="portfolioPicturefinal.png" alt="a photo of me"> -->
+        <img src="https://media.giphy.com/media/EKrFksrzxQxlb5ahiq/giphy.gif" alt="a gif">
+    </div>
+</body>
+</html>
+<script>
+    function hireMe(){
+        const url="resumepdf.html";
+        window.open(url,'_blank');
+    }
+</script>
