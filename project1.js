@@ -22,6 +22,10 @@ function openContactPage(){
     const newpageURL="contact.html";
     window.open(newpageURL, '_blank');
 }
+function openskillPage(){
+    const newpageURL="skills.html";
+    window.open(newpageURL, '_blank');
+}
 
 
 // const contact=document.querySelector('.contact')
